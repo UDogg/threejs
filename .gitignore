@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled output
+/build
+/dist
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.pdb
+
+# Operating System files
+.DS_Store
+Icon?
+Thumbs.db
+
+# Dependency lock files
+yarn.lock
+package-lock.json
