@@ -170,67 +170,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JBOD Manipulation using C.",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Write a program in C to iterate through a 1MB JBOD split into disks and blocks and copy the data into a user provided buffer.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "C",
+        color: "gray-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Linux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "makefile",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UDogg/CMPSC311",
   },
   {
-    name: "Job IT",
+    name: "Whack-A-Mole",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Write a program in Python to create a basic Whack-A-Mole game including GUI using pip and pygame packages.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "pygame",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "random",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UDogg/Whack-A-Mole",
   },
   {
-    name: "Trip Guide",
+    name: "Django CRM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a high level customer relationship manager created using Django",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UDogg/djanproj",
   },
 ];
 
