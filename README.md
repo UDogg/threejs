@@ -3,11 +3,12 @@
 ### It is inspired by [Adrian's 3js portfolio](https://www.youtube.com/@javascriptmastery)
 
 **This is the website stack:**
--*JavaScript*\\
--*Nodejs*\\
+-*JavaScript*
+-*Nodejs*
 -*Reactjs*
 -*FramerMotion*
 -*HTML/Tailwind CSS*
+Used Vite instead of create-react-app
 
 *Please visit [this link to see Adrian's YT video ](https://www.youtube.com/watch?v=0fYi8SGA20k&list=LL&index=9)*
 
