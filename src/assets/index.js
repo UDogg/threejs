@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import kubernetes from "./kubernetes.png"
+import ts from "./ts.png"
+import apis from "./apis.png"
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   kubernetes,
+  ts,
+  apis,
 };

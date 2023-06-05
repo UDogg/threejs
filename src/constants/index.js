@@ -20,6 +20,8 @@ import {
   tripguide,
   threejs,
   kubernetes,
+  ts,
+  apis,
 } from "../assets";
 
 export const navLinks = [
@@ -116,7 +118,7 @@ const experiences = [
   {
     title: "Intercultural Mentor",
     company_name: "Penn State Berks",
-    icon: tesla,
+    icon: starbucks,
     iconBg: "#E6DEDD",
     date: "April 2022 - Dec 2022",
     points: [
@@ -251,6 +253,52 @@ const projects = [
       },
     ],
     image: kubernetes,
+    source_code_link: "https://github.com/UDogg/threejs",
+  },
+  {
+    name: "Learning Prisma",
+    description:
+      "This is made using TypeScript and Prisma",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ts,
+    source_code_link: "https://github.com/UDogg/threejs",
+  },
+  {
+    name: "qApply backend(testing) and frontend",
+    description:
+      "I learned how to use Django Rest Framework and Test-Driven-Development concepts.I also learned how to catch APIs, resolve CORS errors and dynamically call APIs using Next.js",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "red-text-gradient",
+      },
+    ],
+    image: apis,
     source_code_link: "https://github.com/UDogg/threejs",
   },
 ];
