@@ -273,7 +273,7 @@ const projects = [
       },
     ],
     image: ts,
-    source_code_link: "https://github.com/UDogg/threejs",
+    source_code_link: "https://github.com/UDogg/Prisma",
   },
   {
     name: "qApply backend(testing) and frontend",
@@ -298,7 +298,7 @@ const projects = [
       },
     ],
     image: apis,
-    source_code_link: "https://github.com/UDogg/threejs",
+    source_code_link: "https://github.com/UDogg/qapply-frontend",
   },
 ];
 
