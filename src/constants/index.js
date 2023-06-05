@@ -21,6 +21,7 @@ import {
   kubernetes,
   ts,
   apis,
+  Kube,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +98,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: Kube,
   },
 ];
 
