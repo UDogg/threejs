@@ -3,8 +3,8 @@
 ### It is inspired by [Adrian's 3js portfolio](https://www.youtube.com/@javascriptmastery)
 
 **This is the website stack:**
--*JavaScript*
--*Nodejs*
+-*JavaScript*\\
+-*Nodejs*\\
 -*Reactjs*
 -*FramerMotion*
 -*HTML/Tailwind CSS*
