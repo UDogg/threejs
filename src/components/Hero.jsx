@@ -22,7 +22,7 @@ const Hero = () => {
             I am a Web3.0 and full stack developer <br className='sm:block hidden' />
             interested in AI and NLP...
           </p>
-          <p>This my setup as a 3D model</p>
+          <p>This is Adrian's setup as a 3D model</p>
         </div>
       </div>
 
