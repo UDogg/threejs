@@ -20,7 +20,7 @@ const Footer = () => {
             technologies to deliver pioneering solutions aligned with evolving industry exigencies.
             Delve into our projects, including the dynamic portfolio website crafted by me and deployed via
             Kubernetes by Purna, and envision how our combined prowess can enrich your forthcoming endeavors.
-            <a href="https://www.youtube.com/@javascriptmastery">Credit: Adrian -JavaScript Mastery</a>
+            <a href="https://www.youtube.com/@javascriptmastery"> Credit: Adrian -JavaScript Mastery</a>
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 mt-16">
