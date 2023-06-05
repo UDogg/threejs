@@ -19,6 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  kubernetes,
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +231,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/UDogg/djanproj",
+  },
+  {
+    name: "Kubernetes Deployment",
+    description:
+      "This 3D website was deployed using Kubernetes",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kubernetes,
+    source_code_link: "https://github.com/UDogg/threejs",
   },
 ];
 
