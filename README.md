@@ -1,6 +1,6 @@
 # threejs
 ### This is a website created using JavaScript, React and Threejs.
-### It is inspired by [Adrian's 3js portfolio](https://www.youtube.com/@javascriptmastery)
+### It is inspired by [Adrian from JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
 
 **This is the website stack:**
 -*JavaScript*
