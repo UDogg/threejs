@@ -54,7 +54,7 @@ const About = () => {
         real-world problems.
       </motion.p>
       <div className="font-bold text-2xl flex justify-center">
-      <a href="https://ipfs.io/ipfs/QmTVkT6FN1tfxdu52Xe83vmupKa1vvDaUaFXiHT4G6CEz8?filename=CV_Utkarsh_Choudhary.pdf">Click here to check out my Résumé!</a>
+      <a href="https://drive.google.com/file/d/1hacdiMGlSmL15zlNskjtNj5ggCRguNV2/view?usp=sharing">Click here to check out my Résumé!</a>
       </div>
       
       <div className='mt-20 flex flex-wrap gap-10 flex justify-center'>
