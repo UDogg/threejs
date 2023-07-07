@@ -25,7 +25,9 @@ import {
   python,
   java,
 } from "../assets";
-
+import a from "../assets/gene.jpeg";
+import b from "../assets/o.jpeg";
+import c from "../assets/sunthar.jpeg";
 export const navLinks = [
   {
     id: "about",
@@ -165,26 +167,26 @@ const testimonials = [
   {
     testimonial:
       "Dummy Testomonial",
-    name: "Jane Doe",
-    designation: "CFO",
-    company: "XYZ Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Gene Bollman",
+    designation: "IT Support Specialist 3",
+    company: "Penn State Berks",
+    image: a,
   },
   {
     testimonial:
       "Dummy Testomonial",
-    name: "John Doe",
-    designation: "COO",
-    company: "ABC Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Sharon Pitterson Ogaldez",
+    designation: "Coordinator of Diversity and International Programs",
+    company: "Penn State Berks",
+    image: b,
   },
   {
     testimonial:
       "Dummy Testomonial",
-    name: "Human Being",
-    designation: "CTO",
-    company: "Vought Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Prof. P Sunthar",
+    designation: "Head, Application Software Center",
+    company: "Indian Institute of Technolgy, Bombay",
+    image: c,
   },
 ];
 
