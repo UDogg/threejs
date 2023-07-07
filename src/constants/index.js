@@ -43,6 +43,10 @@ export const navLinks = [
     id: "footer",
     title: "Footer",
   },
+  {
+    id: "about",
+    title: "Resume",
+  },
 ];
 
 const services = [
