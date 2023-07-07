@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
 import { DiGithubBadge } from "react-icons/di";
+import { SectionWrapper } from "../hoc";
 
 const Footer = () => {
   return (
@@ -56,4 +57,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default SectionWrapper(Footer, "footer");
