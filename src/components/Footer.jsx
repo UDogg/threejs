@@ -20,29 +20,34 @@ const Footer = () => {
             technologies to deliver pioneering solutions aligned with evolving industry exigencies.
             Delve into our projects, including the dynamic portfolio website crafted by me and deployed via
             Kubernetes by Purna, and envision how our combined prowess can enrich your forthcoming endeavors.
-            <a href="https://www.youtube.com/@javascriptmastery"> Credit: Adrian -JavaScript Mastery</a>
+            <a href="https://www.youtube.com/@javascriptmastery" target="_blank"> Credit: Adrian -JavaScript Mastery</a>
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-8 mt-16">
-          <div className="text-left"> {/* Add text-left class */}
-            <div className="flex items-center mb-4">
+        <br></br>
+        <div className="flex flex-col items-center">
+          <div className="text-center">
+            <div className="flex flex-col items-center">
               <FaHome className="text-white mr-2" size={20} />
               <div>
-                <p className="text-white">Pennsylvania State University, University Park</p>
-                <p className="text-white">University Park, PA 16802.</p>
+                <p className="text-white text-center">Pennsylvania State University, University Park</p>
+                <p className="text-white text-center">University Park, PA 16802.</p>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex flex-col items-center">
               <FaMailBulk className="text-white mr-2" size={20} />
-              <h4 className="text-white">ufc5009@psu.edu</h4>
+              <a href="mailto:ufc5009@psu.edu" className="text-white text-center">ufc5009@psu.edu</a>
             </div>
-            <div className="flex items-center">
+
+            <div className="flex flex-col items-center">
               <FaPhone className="text-white mr-2" size={20} />
-              <h4 className="text-white">+1(484)-797-8693</h4>
+              <h4 className="text-white text-center">+1(484)-797-8693</h4>
             </div>
-            <div className="flex items-center">
+            <div className="flex flex-col items-center">
               <DiGithubBadge className="text-white mr-2" size={20} />
-              <h4 className="text-white">github.com/UDogg</h4>
+              <a href="https://www.github.com/udogg" target="_blank" className="text-white text-center">github.com/UDogg</a>
+            </div>
+            <div className="flex flex-col items-center">
+              <h2>Last Updated: July 7, 2023</h2>
             </div>
           </div>
         </div>
