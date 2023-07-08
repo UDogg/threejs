@@ -48,7 +48,7 @@ const Footer = () => {
               <a href="https://www.github.com/udogg" target="_blank" className="text-white text-center">github.com/UDogg</a>
             </div>
             <div className="flex flex-col items-center">
-              <h2>Last Updated: July 7, 2023</h2>
+              <h2>Last Updated: July 8, 2023</h2>
             </div>
           </div>
         </div>
