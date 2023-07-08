@@ -166,7 +166,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Dummy Testomonial",
+      "Utkarsh was a reliable and consciences student worker with the ability to learn and interact with our clients on a professional level and a strong contributor as IT consultant with IT ,academic, professional, and soft skills.",
     name: "Gene Bollman",
     designation: "IT Support Specialist 3",
     company: "Penn State Berks",
@@ -174,16 +174,16 @@ const testimonials = [
   },
   {
     testimonial:
-      "Dummy Testomonial",
-    name: "Sharon Pitterson Ogaldez",
-    designation: "Coordinator of Diversity and International Programs",
+      "Demonstrated responsibility and professionalism excellence in being the intercultural mentor for new international students at Penn State Berks. Organized tech workshops for students and was able to manage time and resources effectively.",
+    name: "Sharon Pitterson-Ogaldez",
+    designation: "Ex Coordinator of Diversity and International Programs",
     company: "Penn State Berks",
     image: b,
   },
   {
     testimonial:
-      "Dummy Testomonial",
-    name: "Prof. P Sunthar",
+      "Demonstrated outstanding skills in Django, Django Rest Framework, React, Next.js, GitLab CI/CD, Tailwind CSS, and Docker for completing a full-stack monolith to microservices transition project at IIT Bombay.",
+    name: "Prof. Premakumar Sunthar",
     designation: "Head, Application Software Center",
     company: "Indian Institute of Technolgy, Bombay",
     image: c,

@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 py-16">
+    <div className="bg-gray-800 py-16 rounded-3xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <p className="text-center text-white">
