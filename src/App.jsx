@@ -16,8 +16,7 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
-        <p className="flex justify-center">Motion Graphics</p>
-        <div className="wave"></div>
+        <div className="wave"><p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl">Motion Graphics</p></div>
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
