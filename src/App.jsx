@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
+import './App.css';
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
+        <p className="flex justify-center">Motion Graphics</p>
+        <div className="wave"></div>
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
