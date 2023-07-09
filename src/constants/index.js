@@ -185,7 +185,7 @@ const testimonials = [
       "Demonstrated outstanding skills in Django, Django Rest Framework, React, Next.js, GitLab CI/CD, Tailwind CSS, and Docker for completing a full-stack monolith to microservices transition project at IIT Bombay.",
     name: "Prof. Premakumar Sunthar",
     designation: "Head, Application Software Center",
-    company: "Indian Institute of Technolgy, Bombay",
+    company: "Indian Institute of Technology, Bombay",
     image: c,
   },
 ];
@@ -260,11 +260,11 @@ const projects = [
       "This 3D website was deployed using Kubernetes",
     tags: [
       {
-        name: "Python",
+        name: "Shell",
         color: "blue-text-gradient",
       },
       {
-        name: "Django",
+        name: "Linux",
         color: "green-text-gradient",
       },
       {
