@@ -12,7 +12,6 @@ const Footer = () => {
             Welcome to my portfolio website! My name is Utkarsh (UC) Choudhary. 
             I am currently a junior in Penn State University, studying Computer Science.
             My contacts are listed below.
-            <a href="https://www.youtube.com/@javascriptmastery" target="_blank"> Credit: Adrian -JavaScript Mastery</a>
           </p>
         </div>
         <br></br>
@@ -21,7 +20,7 @@ const Footer = () => {
             <div className="flex flex-col items-center">
               <FaHome className="text-white mr-2" size={20} />
               <div>
-                <p className="text-white text-center">Pennsylvania State University, University Park</p>
+                <p className="text-white text-center">Pennsylvania State University</p>
                 <p className="text-white text-center">University Park, PA 16802.</p>
               </div>
             </div>
@@ -39,7 +38,10 @@ const Footer = () => {
               <a href="https://www.github.com/udogg" target="_blank" className="text-white text-center">github.com/UDogg</a>
             </div>
             <div className="flex flex-col items-center">
-              <h2>Last Updated: July 8, 2023</h2>
+              <h2>Last Updated: July 16, 2023</h2>
+            </div>
+            <div className="absolute bottom-0 left-0">
+              <a href="https://www.youtube.com/@javascriptmastery" target="_blank"> Credit: Adrian -JavaScript Mastery</a>
             </div>
           </div>
         </div>
