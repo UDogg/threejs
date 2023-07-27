@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -25,6 +24,16 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavLinkClick = (nav) => {
+    setActive(nav.title);
+    if (nav.title === "Resume") {
+      window.open(
+        "https://drive.google.com/file/d/1Drjepb4wOkJzn7hzAIHlWcKqf0gVeA0x/view?usp=drive_link",
+        "_blank"
+      );
+    }
+  };
+
   return (
     <nav
       className={`${
@@ -43,7 +52,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Utkarsh &nbsp;
             <span className='sm:block hidden'> | Penn State</span>
           </p>
@@ -56,9 +65,15 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => handleNavLinkClick(nav)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={`#${nav.id}`}
+                target={nav.title === "Resume" ? "_blank" : ""}
+                rel={nav.title === "Resume" ? "noopener noreferrer" : ""}
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -88,7 +103,13 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a
+                    href={`#${nav.id}`}
+                    target={nav.title === "Resume" ? "_blank" : ""}
+                    rel={nav.title === "Resume" ? "noopener noreferrer" : ""}
+                  >
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
