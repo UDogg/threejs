@@ -24,10 +24,13 @@ import {
   Kube,
   python,
   java,
+  IOCL,
+  PSU,
 } from "../assets";
 import a from "../assets/gene.jpeg";
 import b from "../assets/o.jpeg";
 import c from "../assets/sunthar.jpeg";
+
 export const navLinks = [
   {
     id: "about",
@@ -153,12 +156,38 @@ const experiences = [
     company_name: "IIT Bombay",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    date: "May 2023 - June 2023",
     points: [
       "Developing and maintaining frontend web applications using Next.js and GitLab CI/CD.",
       "Developing and maintaining backend web applications using Django, Django Rest Framework and GitLab CI/CD.",
       "Resolved CORS (Continuously Operating Reference Stations) errors.",
       "My first time working with a full development team and DevOps",
+    ],
+  },
+    {
+    title: "Frontend Developer",
+    company_name: "Indian Oil Corporation Limited",
+    icon: IOCL,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - July 2023",
+    points: [
+      "Developing and maintaining frontend web applications using React.js and Vercel CI/CD.",
+      "Creating a contact email using EmailJS, Figma, UI/UX, and React.js.",
+      "Resolved CORS (Continuously Operating Reference Stations) errors.",
+      "Solo research display of Information Services Team of a Fortune 500 company.",
+    ],
+  },
+    {
+    title: "Auxiliary Officer UPPS",
+    company_name: "Penn State University Police",
+    icon: PSU,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Present",
+    points: [
+      "Guide and assist students, faculty, and staff with parking and traffic concerns.",
+      "Maintain a safe and secure environment for students, faculty, and staff.",
+      "Assist with traffic control and crowd control at special events.",
+      "Helped the UPPS with patrolling and security of one of the largest campuses in the US.",
     ],
   },
 ];

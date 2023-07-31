@@ -28,6 +28,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import IOCL from "./company/IOCL.png";
+import PSU from "./company/PSU.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,4 +73,6 @@ export {
   Kube,
   python,
   java,
+  IOCL,
+  PSU,
 };
