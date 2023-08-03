@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full sm:w-[360px]"
+      className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-2"
     >
       <Tilt
         options={{
@@ -78,20 +78,19 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} flex justify-center`}>Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto'
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto"
         >
-          Following projects showcases my skills and experience through
+          Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          links to code repositories in it. It reflects my ability to solve complex problems,
+          work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className="mt-8 flex flex-wrap justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
