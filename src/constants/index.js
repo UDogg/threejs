@@ -195,7 +195,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Utkarsh was a reliable and consciences student worker with the ability to learn and interact with our clients on a professional level and a strong contributor as IT consultant with IT ,academic, professional, and soft skills.",
+      "Utkarsh was a reliable and conscientious student worker with the ability to learn and interact with our clients on a professional level. He was a strong contributor as an IT consultant, showcasing expertise in IT, academic, professional, and soft skills.",
     name: "Gene Bollman",
     designation: "IT Support Specialist 3",
     company: "Penn State Berks",
