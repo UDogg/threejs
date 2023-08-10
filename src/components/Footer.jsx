@@ -38,7 +38,7 @@ const Footer = () => {
               <a href="https://www.github.com/udogg" target="_blank" className="text-white text-center">github.com/UDogg</a>
             </div>
             <div className="flex flex-col items-center">
-              <h2>Last Updated: July 16, 2023</h2>
+              <h2>Last Updated: August 10, 2023</h2>
             </div>
             <div className="absolute bottom-0 left-0">
               <a href="https://www.youtube.com/@javascriptmastery" target="_blank"> Credit: Adrian -JavaScript Mastery</a>
