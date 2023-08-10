@@ -1,4 +1,5 @@
 # Project Report: Portfolio Website using ReactJS, ThreeJS, Framer Motion, Figma, and NodeJS deployed on Vercel.
+![ThreeJS](https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png)
 ### 1. Introduction: 
 The purpose of this project was to create a visually appealing and interactive portfolio website using cutting-edge technologies such as ReactJS, ThreeJS, Framer Motion, and Figma for design, along with NodeJS for server-side functionality. The website was successfully deployed on Vercel to make it accessible to a broad audience- or anyone with the link.
 ### 2. Project Overview: 
