@@ -20,8 +20,8 @@ const Footer = () => {
             <div className="flex flex-col items-center">
               <FaHome className="text-white mr-2" size={20} />
               <div>
-                <p className="text-white text-center">Pennsylvania State University</p>
-                <p className="text-white text-center">University Park, PA 16802.</p>
+                <p className="text-white text-center"><a href="https://www.psu.edu/" target="_blank">Pennsylvania State University</a></p>
+                <p className="text-white text-center"><a href="https://www.google.com/maps/dir//penn+state/" target="_blank">University Park, PA 16802.</a></p>
               </div>
             </div>
             <div className="flex flex-col items-center">
