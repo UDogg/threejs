@@ -39,6 +39,7 @@ import tripguide from "./tripguide.png";
 import kubernetes from "./kubernetes.png"
 import ts from "./ts.png"
 import apis from "./apis.png"
+import gg from "./gg.png"
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   IOCL,
   PSU,
   zig,
-  ziggy
+  ziggy,
+  gg
 };

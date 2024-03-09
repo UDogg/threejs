@@ -353,7 +353,7 @@ const projects = [
     source_code_link: "https://github.com/UDogg/qapply-frontend",
   },
   {
-    name: "qApply backend(testing) and frontend",
+    name: "Fastest Zig calculator in the world aka 'Ziggy'",
     description:
       "I learned how to use Zig and build a simple calculator using it",
     tags: [
