@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 import Kube from "./tech/Kube.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
+import zig from "./tech/zig.jpg";
+import ziggy from "./tech/ziggy.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,4 +77,6 @@ export {
   java,
   IOCL,
   PSU,
+  zig,
+  ziggy
 };

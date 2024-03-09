@@ -26,6 +26,8 @@ import {
   java,
   IOCL,
   PSU,
+  zig,
+  ziggy
 } from "../assets";
 import a from "../assets/gene.jpeg";
 import b from "../assets/o.jpeg";
@@ -95,8 +97,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Java",
+    icon: java,
   },
   {
     name: "MongoDB",
@@ -349,6 +351,36 @@ const projects = [
     ],
     image: apis,
     source_code_link: "https://github.com/UDogg/qapply-frontend",
+  },
+  {
+    name: "qApply backend(testing) and frontend",
+    description:
+      "I learned how to use Zig and build a simple calculator using it",
+    tags: [
+      {
+        name: "Zig",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zig,
+    source_code_link: "https://github.com/UDogg/ziggy",
+  },
+  {
+    name: "Springboot, Angular full stack application",
+    description:
+      "I learned how to use Springboot. I also learned how to make APIs, and test them using Postman. First draft frontend was made using Angular",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: java,
+    source_code_link: "https://github.com/UDogg/springang",
   },
 ];
 
