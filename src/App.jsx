@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 import './App.css';
+import TypingEffect from "./components/TypingEffect";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
-        <div className="wave"><p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl">Motion Graphics</p></div>
+        <div className="wave"><p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl"><TypingEffect /></p></div>
         <div className='relative z-0'>
+          
           <Contact />
           <StarsCanvas />
           <Footer />
