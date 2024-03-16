@@ -1,0 +1,26 @@
+/* helix.css */
+
+/* Container supporting 3D space */
+.conveyor-container {
+    perspective: 1000px; /* Adjust as needed for the depth effect */
+  }
+  
+  /* Keyframes for the helix animation */
+  @keyframes helix {
+    0% {
+      transform: translateX(100%) rotateY(0deg) translateY(0px);
+    }
+    50% {
+      /* Adjust translateY for the amplitude, adjust translateX and rotateY for the tightness and direction of the helix */
+      transform: translateX(50%) rotateY(180deg) translateY(20px); 
+    }
+    100% {
+      transform: translateX(0%) rotateY(360deg) translateY(0px);
+    }
+  }
+  
+  /* Class to apply the helix animation */
+  .animate-helix {
+    animation: helix 20s linear infinite;
+  }
+  
