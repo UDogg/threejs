@@ -21,6 +21,15 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      keyframes: {
+        conveyor: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        conveyor: 'conveyor 20s linear infinite',
+      },
     },
   },
   plugins: [],
