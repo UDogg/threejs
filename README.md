@@ -3,7 +3,7 @@
 ### 1. Introduction: 
 The purpose of this project was to create a visually appealing and interactive portfolio website using cutting-edge technologies such as ReactJS, ThreeJS, Framer Motion, and Figma for design, along with NodeJS for server-side functionality. The website was successfully deployed on Vercel to make it accessible to a broad audience- or anyone with the link.
 ### 2. Project Overview: 
-This portfolio website, titled "Utkarsh | Penn State” showcases the work and achievements of Utkarsh as a web developer. The website is designed to be immersive and engaging for visitors, providing a seamless user experience while navigating various sections.
+This portfolio website, titled "Utkarsh | Developer” showcases the work and achievements of Utkarsh as a web developer. The website is designed to be immersive and engaging for visitors, providing a seamless user experience while navigating various sections.
 ### 3. Technologies Used:
 **ReactJS:** ReactJS was used as the frontend framework to build the entire user interface and handle dynamic content rendering.
 **ThreeJS:** ThreeJS was employed for creating 3D graphics, animations, and interactive visual elements to enhance the user experience.
