@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           <p className="text-center text-white">
             Welcome to my portfolio website! My name is Utkarsh (UC) Choudhary. 
-            I am currently a junior in Penn State University, studying Computer Science.
+            I am currently a rising senior in Penn State University, studying Computer Science.
             My contacts are listed below.
           </p>
         </div>

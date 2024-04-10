@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 const TypingEffect = () => {
   const phrases = [
-    { text: 'student in Penn State University.', color: '#FFD700' }, // Gold
+    { text: 'student of Computer Science', color: '#FFD700' }, // Gold
     { text: 'full stack developer.', color: '#00BFFF' }, // DeepSkyBlue
     { text: 'Web3.0 enthusiast.', color: '#32CD32' }, // LimeGreen
     { text: 'systems designer.', color: '#FF4500' }, // OrangeRed
