@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "destination": "https://threejs-black.vercel.app/$1",
+        "permanent": true
+      }
+    ]
+  }
+  
