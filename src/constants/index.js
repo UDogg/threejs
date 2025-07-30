@@ -184,7 +184,7 @@ const experiences = [
     company_name: "Penn State University Police",
     icon: PSU,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "July 2023 - July 2025",
     points: [
       "Guide and assist students, faculty, and staff with parking and traffic concerns.",
       "Maintain a safe and secure environment for students, faculty, and staff.",
